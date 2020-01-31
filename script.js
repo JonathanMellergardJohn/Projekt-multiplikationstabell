@@ -14,7 +14,7 @@ let questionSetName = "";
 let questionIndex = 0;
 let question = "";
 let input = document.querySelector('.guessField');
-let startTime = Date.now();
+let startTime = 0;
 
 function removeElement(elementId) {
     // Removes an element from the document
@@ -149,6 +149,7 @@ input.addEventListener('keyup',function(e){
 });
 
 function startQuiz() {
+    startTime = Date.now();
     removeElement("startButton");
     document.getElementById("questionContainer").removeAttribute("hidden");
     document.getElementById("submitGuessButton").removeAttribute("hidden");

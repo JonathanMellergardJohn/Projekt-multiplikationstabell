@@ -1,6 +1,15 @@
 TO-CODE-LIST
 
-1. Finish function for results table
+1. check if follwing iterator methods can be used to simplify code: 
+    - array.forEach()
+    - array.map()
+    - array.filter()
+    - array.findIndex()
+    - array.reduce()
+2. I don't really understand how return values work...
+3. localize as many global variables as possible
+4. time how long is spent on each question
+5. host multiplication quiz on GitHub
 
 ANTECKNINGAR
 
