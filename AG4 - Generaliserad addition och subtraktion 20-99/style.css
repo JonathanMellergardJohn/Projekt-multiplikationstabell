@@ -1,0 +1,59 @@
+body {
+  background-color: #7aabc3;
+}
+.guessCorrectionMessage {
+  margin: auto;
+  text-align: center;
+  font-size: 28px;
+}
+.quizFrame {
+  margin: 100px auto;
+  width: 500px;
+  height: 400px;
+  box-shadow: 10px 10px 10px;
+  
+}
+.quizFrameHead {
+  height: 70px;
+  background-color: #ccc756; 
+  display: flex;
+  justify-content: center;
+}
+.topArea {
+  height: 330px;
+  background-color: #98e3dd;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.questionField {
+  font-size: 36px;
+}
+.guessField { 
+  background-color: #a8dfda;
+  font-size: 36px;
+  width: 72px;
+}
+.submitGuessButton {
+  font-size: 36px;
+  padding: 6px;
+  border-radius: 10px;
+  border: 1px solid black;
+  background-color: #ccc756;
+}
+.startButton {
+  font-size: 45px;
+  background-color: #ccc756;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+table {
+  width: 60%;
+  font-size: large;
+  color: black;
+}
+.questionContainer {
+  display: flex;
+}

@@ -1,0 +1,21 @@
+fix createDoubles function (!!!done!!!)
+fix createHalves function
+
+
+*** OUTPUT for all functions will be two addends!!! ***
+
+1A:
+-arguments (range of first addend, second addend)
+
+1B:
+-first function: arguments (range of first addend, second addend) 
+-note: the second addend will be a negative number
+-second function: arguments (range of minuend, difference)
+
+2A:
+-arguments (range of first addend, difference between first and second addend)
+
+2B:
+-function (range of minuend, difference from half of the minuend)
+
+3A and 3B:
